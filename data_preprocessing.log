@@ -1,0 +1,14 @@
+INFO:root:Data generation completed.
+INFO:root:Feature scaling completed.
+INFO:root:Cross-validation for LinearRegression() completed.
+INFO:root:Average MSE: 0.09339111053225295
+INFO:root:Cross-validation for LinearRegression() completed.
+INFO:root:Average MSE: 0.09247640768234973
+INFO:root:Cross-validation for SVR() completed.
+INFO:root:Average MSE: 0.098637815337377
+INFO:root:Cross-validation for RandomForestRegressor() completed.
+INFO:root:Average MSE: 0.10961636762170623
+INFO:root:Cross-validation for DecisionTreeRegressor() completed.
+INFO:root:Average MSE: 0.2134219308724068
+INFO:root:Best model selected: Linear Regression
+INFO:root:Project execution completed.
