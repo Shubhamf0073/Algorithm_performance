@@ -11,7 +11,6 @@ def perform_cross_validation(model, X, y, cv=5):
     scores = cross_val_score(model, X, y, cv=cv, scoring='neg_mean_squared_error')
     avg_mse = -scores.mean()
 
-    # Add log messages
     logging.info(f"Cross-validation for {model} completed.")
     logging.info(f"Average MSE: {avg_mse}")
     print(f"Cross-validation for {model} completed. Average MSE: {avg_mse}")
@@ -38,7 +37,6 @@ def select_best_model(models, X_train, y_train, cv=5):
     best_model_name = min(mse_scores, key=mse_scores.get)
     best_model = models[best_model_name]
 
-    # Add log messages
     logging.info(f"Best model selected: {best_model_name}")
     print(f"Best model selected: {best_model_name}")
 
